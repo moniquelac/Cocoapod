@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5802AE61F6E70C5004A47D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5802AE51F6E70C5004A47D2 /* AppDelegate.swift */; };
+		D5802AE81F6E70C5004A47D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5802AE71F6E70C5004A47D2 /* ViewController.swift */; };
+		D5802AEB1F6E70C5004A47D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5802AE91F6E70C5004A47D2 /* Main.storyboard */; };
+		D5802AED1F6E70C5004A47D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5802AEC1F6E70C5004A47D2 /* Assets.xcassets */; };
+		D5802AF01F6E70C5004A47D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5802AEE1F6E70C5004A47D2 /* LaunchScreen.storyboard */; };
+		D5802AFB1F6E70C5004A47D2 /* FantasticViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5802AFA1F6E70C5004A47D2 /* FantasticViewTests.swift */; };
+		D5802B061F6E70C5004A47D2 /* FantasticViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5802B051F6E70C5004A47D2 /* FantasticViewUITests.swift */; };
+		D5802B141F6E7121004A47D2 /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5802B131F6E7121004A47D2 /* FantasticView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5802AF71F6E70C5004A47D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5802ADA1F6E70C5004A47D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5802AE11F6E70C5004A47D2;
+			remoteInfo = FantasticView;
+		};
+		D5802B021F6E70C5004A47D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5802ADA1F6E70C5004A47D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5802AE11F6E70C5004A47D2;
+			remoteInfo = FantasticView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5802AE21F6E70C5004A47D2 /* FantasticView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasticView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5802AE51F6E70C5004A47D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5802AE71F6E70C5004A47D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5802AEA1F6E70C5004A47D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5802AEC1F6E70C5004A47D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5802AEF1F6E70C5004A47D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5802AF11F6E70C5004A47D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5802AF61F6E70C5004A47D2 /* FantasticViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5802AFA1F6E70C5004A47D2 /* FantasticViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViewTests.swift; sourceTree = "<group>"; };
+		D5802AFC1F6E70C5004A47D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5802B011F6E70C5004A47D2 /* FantasticViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5802B051F6E70C5004A47D2 /* FantasticViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViewUITests.swift; sourceTree = "<group>"; };
+		D5802B071F6E70C5004A47D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5802B131F6E7121004A47D2 /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5802ADF1F6E70C5004A47D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5802AF31F6E70C5004A47D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5802AFE1F6E70C5004A47D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5802AD91F6E70C5004A47D2 = {
+			isa = PBXGroup;
+			children = (
+				D5802AE41F6E70C5004A47D2 /* FantasticView */,
+				D5802AF91F6E70C5004A47D2 /* FantasticViewTests */,
+				D5802B041F6E70C5004A47D2 /* FantasticViewUITests */,
+				D5802AE31F6E70C5004A47D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5802AE31F6E70C5004A47D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5802AE21F6E70C5004A47D2 /* FantasticView.app */,
+				D5802AF61F6E70C5004A47D2 /* FantasticViewTests.xctest */,
+				D5802B011F6E70C5004A47D2 /* FantasticViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5802AE41F6E70C5004A47D2 /* FantasticView */ = {
+			isa = PBXGroup;
+			children = (
+				D5802AE51F6E70C5004A47D2 /* AppDelegate.swift */,
+				D5802AE71F6E70C5004A47D2 /* ViewController.swift */,
+				D5802B131F6E7121004A47D2 /* FantasticView.swift */,
+				D5802AE91F6E70C5004A47D2 /* Main.storyboard */,
+				D5802AEC1F6E70C5004A47D2 /* Assets.xcassets */,
+				D5802AEE1F6E70C5004A47D2 /* LaunchScreen.storyboard */,
+				D5802AF11F6E70C5004A47D2 /* Info.plist */,
+			);
+			path = FantasticView;
+			sourceTree = "<group>";
+		};
+		D5802AF91F6E70C5004A47D2 /* FantasticViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5802AFA1F6E70C5004A47D2 /* FantasticViewTests.swift */,
+				D5802AFC1F6E70C5004A47D2 /* Info.plist */,
+			);
+			path = FantasticViewTests;
+			sourceTree = "<group>";
+		};
+		D5802B041F6E70C5004A47D2 /* FantasticViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5802B051F6E70C5004A47D2 /* FantasticViewUITests.swift */,
+				D5802B071F6E70C5004A47D2 /* Info.plist */,
+			);
+			path = FantasticViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5802AE11F6E70C5004A47D2 /* FantasticView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5802B0A1F6E70C5004A47D2 /* Build configuration list for PBXNativeTarget "FantasticView" */;
+			buildPhases = (
+				D5802ADE1F6E70C5004A47D2 /* Sources */,
+				D5802ADF1F6E70C5004A47D2 /* Frameworks */,
+				D5802AE01F6E70C5004A47D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FantasticView;
+			productName = FantasticView;
+			productReference = D5802AE21F6E70C5004A47D2 /* FantasticView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5802AF51F6E70C5004A47D2 /* FantasticViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5802B0D1F6E70C5004A47D2 /* Build configuration list for PBXNativeTarget "FantasticViewTests" */;
+			buildPhases = (
+				D5802AF21F6E70C5004A47D2 /* Sources */,
+				D5802AF31F6E70C5004A47D2 /* Frameworks */,
+				D5802AF41F6E70C5004A47D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5802AF81F6E70C5004A47D2 /* PBXTargetDependency */,
+			);
+			name = FantasticViewTests;
+			productName = FantasticViewTests;
+			productReference = D5802AF61F6E70C5004A47D2 /* FantasticViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5802B001F6E70C5004A47D2 /* FantasticViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5802B101F6E70C5004A47D2 /* Build configuration list for PBXNativeTarget "FantasticViewUITests" */;
+			buildPhases = (
+				D5802AFD1F6E70C5004A47D2 /* Sources */,
+				D5802AFE1F6E70C5004A47D2 /* Frameworks */,
+				D5802AFF1F6E70C5004A47D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5802B031F6E70C5004A47D2 /* PBXTargetDependency */,
+			);
+			name = FantasticViewUITests;
+			productName = FantasticViewUITests;
+			productReference = D5802B011F6E70C5004A47D2 /* FantasticViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5802ADA1F6E70C5004A47D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Monique LaCroix";
+				TargetAttributes = {
+					D5802AE11F6E70C5004A47D2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D5802AF51F6E70C5004A47D2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5802AE11F6E70C5004A47D2;
+					};
+					D5802B001F6E70C5004A47D2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5802AE11F6E70C5004A47D2;
+					};
+				};
+			};
+			buildConfigurationList = D5802ADD1F6E70C5004A47D2 /* Build configuration list for PBXProject "FantasticView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5802AD91F6E70C5004A47D2;
+			productRefGroup = D5802AE31F6E70C5004A47D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5802AE11F6E70C5004A47D2 /* FantasticView */,
+				D5802AF51F6E70C5004A47D2 /* FantasticViewTests */,
+				D5802B001F6E70C5004A47D2 /* FantasticViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5802AE01F6E70C5004A47D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5802AF01F6E70C5004A47D2 /* LaunchScreen.storyboard in Resources */,
+				D5802AED1F6E70C5004A47D2 /* Assets.xcassets in Resources */,
+				D5802AEB1F6E70C5004A47D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5802AF41F6E70C5004A47D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5802AFF1F6E70C5004A47D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5802ADE1F6E70C5004A47D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5802AE81F6E70C5004A47D2 /* ViewController.swift in Sources */,
+				D5802AE61F6E70C5004A47D2 /* AppDelegate.swift in Sources */,
+				D5802B141F6E7121004A47D2 /* FantasticView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5802AF21F6E70C5004A47D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5802AFB1F6E70C5004A47D2 /* FantasticViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5802AFD1F6E70C5004A47D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5802B061F6E70C5004A47D2 /* FantasticViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5802AF81F6E70C5004A47D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5802AE11F6E70C5004A47D2 /* FantasticView */;
+			targetProxy = D5802AF71F6E70C5004A47D2 /* PBXContainerItemProxy */;
+		};
+		D5802B031F6E70C5004A47D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5802AE11F6E70C5004A47D2 /* FantasticView */;
+			targetProxy = D5802B021F6E70C5004A47D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5802AE91F6E70C5004A47D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5802AEA1F6E70C5004A47D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5802AEE1F6E70C5004A47D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5802AEF1F6E70C5004A47D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5802B081F6E70C5004A47D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5802B091F6E70C5004A47D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5802B0B1F6E70C5004A47D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FantasticView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "csumb.edu-lacr2421.FantasticView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D5802B0C1F6E70C5004A47D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FantasticView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "csumb.edu-lacr2421.FantasticView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D5802B0E1F6E70C5004A47D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FantasticViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "csumb.edu-lacr2421.FantasticViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasticView.app/FantasticView";
+			};
+			name = Debug;
+		};
+		D5802B0F1F6E70C5004A47D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FantasticViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "csumb.edu-lacr2421.FantasticViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasticView.app/FantasticView";
+			};
+			name = Release;
+		};
+		D5802B111F6E70C5004A47D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FantasticViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "csumb.edu-lacr2421.FantasticViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FantasticView;
+			};
+			name = Debug;
+		};
+		D5802B121F6E70C5004A47D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FantasticViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "csumb.edu-lacr2421.FantasticViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FantasticView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5802ADD1F6E70C5004A47D2 /* Build configuration list for PBXProject "FantasticView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5802B081F6E70C5004A47D2 /* Debug */,
+				D5802B091F6E70C5004A47D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5802B0A1F6E70C5004A47D2 /* Build configuration list for PBXNativeTarget "FantasticView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5802B0B1F6E70C5004A47D2 /* Debug */,
+				D5802B0C1F6E70C5004A47D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5802B0D1F6E70C5004A47D2 /* Build configuration list for PBXNativeTarget "FantasticViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5802B0E1F6E70C5004A47D2 /* Debug */,
+				D5802B0F1F6E70C5004A47D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5802B101F6E70C5004A47D2 /* Build configuration list for PBXNativeTarget "FantasticViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5802B111F6E70C5004A47D2 /* Debug */,
+				D5802B121F6E70C5004A47D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5802ADA1F6E70C5004A47D2 /* Project object */;
+}
